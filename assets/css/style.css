@@ -50,3 +50,10 @@
    .active{
     border-bottom: 2px solid black;
    }
+
+   #hero-image {
+    height:400px;
+    width: 100%;
+    background: url("../images/african-presidents.jpeg") no-repeat center center;
+
+   }
