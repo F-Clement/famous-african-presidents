@@ -15,10 +15,21 @@
    h1, h2 {
     font-family: Lora, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     color:black;
    }
 
    #logo {
     float: left;
+   }
+
+   #menu {
+    font-size: 110%;
+    letter-spacing: 1px;
+   }
+   #menu li {
+    font-size: 110%;
+    float: right;
+    list-style-type: none;
+    margin-right: 25px;
    }
