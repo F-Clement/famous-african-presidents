@@ -63,3 +63,27 @@
     width: 100%;
     overflow: hidden;
    }
+
+   /* famous presidents */
+
+   #famous-presidents {
+    height: 400px;
+   }
+   #left-fame {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+   }
+
+   #right-fame {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+   }
+
+   #african-map {
+    padding-top: 30px;
+    width: 33%;
+    margin: 0 auto;
+   }
+   
