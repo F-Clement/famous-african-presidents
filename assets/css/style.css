@@ -119,38 +119,64 @@
    
 
    #fame-categories > div{
-    height: 300px;
+    height: 200px;
     width: 100%;
     float: left;
     width: 25%;
     border: 2px solid white;
-    box-sizing: border-box;
-  
+    box-sizing: border-box;  
 
    }
 
    .wealth{
-    height: 250px;
+    height: 200px;
     width: 100%;
     padding-left: 30px;
     background: url("../images/wealth.jpg");
    }
    .reign{
-    height: 250px;
+    height: 200px;
     width: 100%;
     padding-left: 30px;
     background: url("../images/reign.jpg");
    }
    .achievements{
-    height: 250px;
+    height: 200px;
     width: 100%;
     padding-left: 30px;
     background: url("../images/achievements.jpg");
    }
    .education{
-    height: 250px;
+    height: 200px;
     width: 100%;
     padding-left: 30px;
     background: url("../images/education.png");
+   }
+
+   #fame-categories h3 {
+    text-align: center;
+    color: red;
+    font-size: 200%;
+    padding: 20px;
+   }
+
+   .wealth li {
+    color: white;
+    font-size: 20px;
+   }
+
+   .reign li {
+    color: black;
+    font-size: 20px;
+   }
+
+   .achievements li {
+    color:black;
+    font-size: 20px;
+   }
+
+   .education li {
+    color: black;
+    font-size: 20px;
    }
    
