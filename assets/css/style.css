@@ -114,4 +114,15 @@
     margin-top: 25px;
     margin-left: 5px;
    }
+
+   /* fame categories */
+
+   #fame-categories > div{
+    float: left;
+    height: 300px;
+    width: 25%;
+    background-color: grey;
+    border-right: 1px solid black;
+    box-sizing: border-box;
+   }
    
