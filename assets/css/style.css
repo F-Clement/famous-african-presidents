@@ -120,9 +120,9 @@
    #fame-categories > div{
     float: left;
     height: 300px;
-    width: 25%;
-    background-color: grey;
+    width: 20%;
     border-right: 1px solid black;
     box-sizing: border-box;
+    margin-left: 5%;
    }
    
