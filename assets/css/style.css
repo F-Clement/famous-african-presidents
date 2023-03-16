@@ -231,7 +231,7 @@
    /*best president*/
 
    .personal-data{
-    margin: 150px, 10%, 0, 0;
+    margin: 150px 10% 0 0;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.9);
     max-width: 400px;
@@ -334,7 +334,7 @@
 
     #fame-categories > div{
       width: 100%;
-      margin: o auto;
+      margin: 0 auto;
       border: 2px solid black;
     }
 
