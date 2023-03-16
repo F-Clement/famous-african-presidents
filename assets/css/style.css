@@ -167,7 +167,6 @@
    }
 
    #fame-categories h3 {
-    text-align: center;
     color: red;
     font-size: 200%;
     padding: 20px;
@@ -298,7 +297,14 @@
       display: none;
       
     }
+
+    #fame-categories > div{
+      width: 50%;
+      
+    }
    }
+
+   /*for small screen sizes 900px and down*/
 
    @media screen and (max-width: 900px){
 
@@ -310,5 +316,22 @@
       line-height: 25px;
 
     }
-   }
 
+    #famous-presidents {
+      width:90%;
+      height: 900px;
+      margin: 0 auto; 
+    }
+    #african-map{
+      width: 90%;
+      float: left;
+      padding: 0;
+
+    }
+
+    #fame-categories > div{
+      width: 100%;
+      margin: o auto;
+      border: 2px solid black;
+    }
+  }
