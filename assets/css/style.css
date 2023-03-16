@@ -132,7 +132,7 @@
    
 
    #fame-categories > div{
-    height: 220px;
+    height: 300px;
     width: 100%;
     float: left;
     width: 25%;
@@ -142,25 +142,25 @@
    }
 
    .wealth{
-    height: 200px;
+    height: 250px;
     width: 100%;
     padding-left: 30px;
     background-color:#3a3a3a;
    }
    .reign{
-    height: 200px;
+    height: 250px;
     width: 100%;
     padding-left: 30px;
     background-color: #23bbbb;
    }
    .achievements{
-    height: 200px;
+    height: 250px;
     width: 100%;
     padding-left: 30px;
     background-color: #f4b940;
    }
    .education{
-    height: 200px;
+    height: 250px;
     width: 100%;
     padding-left: 30px;
     background-color:#459edd;
@@ -263,5 +263,52 @@
     text-align: center;
     font-size: 150%;
     clear: both;
+   }
+
+   /*media queries*/
+
+   /*For screen sizes 1300px to 999px */
+
+   @media screen and (max-width: 1300px) {
+
+    #famous-presidents {
+      width:60%;
+      height: 900px;
+      margin: 0 auto;
+    }
+
+    #famous-presidents > h2 {
+      margin: 0;
+    }
+
+    #left-fame, #right-fame{
+      width: 100%;
+      float: left;
+      padding: 0;
+    }
+
+    #african-map{
+      width: 100%;
+      margin: 0 auto;
+      padding: 0;
+
+    }
+
+    #famous-presidents hr {
+      display: none;
+      
+    }
+   }
+
+   @media screen and (max-width: 900px){
+
+    #menu{
+      clear: left;
+      float: left;
+      margin-left: 30px;
+      margin-bottom: 20px;
+      line-height: 25px;
+
+    }
    }
 
