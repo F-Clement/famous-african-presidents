@@ -319,13 +319,14 @@
 
     #famous-presidents {
       width:90%;
-      height: 900px;
+      height: 1000px;
       margin: 0 auto; 
     }
     #african-map{
-      width: 90%;
-      float: left;
+      width: 100%;
+      margin: 0 auto;
       padding: 0;
+
 
     }
 
@@ -334,4 +335,5 @@
       margin: o auto;
       border: 2px solid black;
     }
+
   }
