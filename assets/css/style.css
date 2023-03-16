@@ -264,6 +264,17 @@
     clear: both;
    }
 
+   .vote-button {
+    background-color: blue;
+    color: white;
+    font-size: 100%;
+    float: right;
+    padding: 10px;
+    border: 2px solid black;
+    clear: both;
+    margin-top: 20px;
+   }
+
    /*media queries*/
 
    /*For screen sizes 1300px to 999px */
