@@ -229,7 +229,7 @@
    .personal-data{
     margin: 150px, 10%, 0, 0;
     color: #fff;
-    background-color: rgba(60, 60, 60, 0.6);
+    background-color: rgba(60, 60, 60, 0.9);
     max-width: 400px;
     position: absolute;
     left:10%;
@@ -248,10 +248,10 @@
 
    #vote {
     clear: left;
-    background: url;
+    background: url("../images/african-flags.jpg");
     background-size: cover;
     background-position: center;
-    height: 900px;
+    height: 400px;
    }
 
    #vote h3{
