@@ -15,10 +15,11 @@
     border-left: 2px solid black;
     border-right: 2px solid black;
     border-bottom: 2px solid black;
+    overflow: hidden;
   }
 
   /* logo and navigation */
-   h1, h2 {
+   h1{
     font-family: Lora, sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -26,6 +27,10 @@
    }
    h2{
     text-align: center;
+    font-family: Lora, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: black;
    }
 
    #logo {
@@ -114,7 +119,7 @@
    }
 
    hr{
-    border-top: 1px solid blue;
+    border-top: 1px solid black;
    }
    h3{
     color: black;
@@ -246,16 +251,17 @@
     border-radius: 2px;
    }
 
-   #vote {
+   #voting-form {
     clear: left;
-    background: url("../images/african-flags.jpg");
+    background: url("../images/african-flags.png");
     background-size: cover;
     background-position: center;
-    height: 400px;
+    height: 800px;
    }
 
    #vote h3{
     text-align: center;
     font-size: 150%;
+    clear: both;
    }
 
