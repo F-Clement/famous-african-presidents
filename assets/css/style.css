@@ -302,6 +302,10 @@
       width: 50%;
       
     }
+
+    #gallery{
+      column-count: 3;
+    }
    }
 
    /*for small screen sizes 900px and down*/
@@ -326,8 +330,6 @@
       width: 100%;
       margin: 0 auto;
       padding: 0;
-
-
     }
 
     #fame-categories > div{
@@ -336,4 +338,12 @@
       border: 2px solid black;
     }
 
+      #gallery{
+        column-count: 2;
+      }
+    }
+  @media screen and (max-width:500px) {
+    #gallery{
+      column-count: 1;
+    }
   }
