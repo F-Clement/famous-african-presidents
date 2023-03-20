@@ -270,14 +270,20 @@
    }
 
    .vote-button {
-    background-color: blue;
-    color: white;
+    background-color: skyblue;
+    color: black;
     font-size: 100%;
     float: right;
     padding: 10px;
     border: 2px solid black;
     clear: both;
     margin-top: 20px;
+   }
+
+   .vote-button:hover {
+    background-color: blue;
+    border: 2px solid white;
+    color: white;
    }
 
    #confirm-vote h3{
@@ -288,6 +294,10 @@
     margin-top: 10px;
 
    }
+
+   input::-webkit-calendar-picker-indicator {
+    opacity: 100;
+ }
 
    /* vote confirmation */
 
@@ -411,4 +421,11 @@
     width: 100%;
     margin: auto;
     padding: 0;
+}
+
+#menu {
+  font-size: 100%;
+  letter-spacing: 0;
+ }
+
 }
