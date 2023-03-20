@@ -296,7 +296,7 @@
    }
 
    input::-webkit-calendar-picker-indicator {
-    opacity: 100;
+    opacity: 1;
  }
 
    /* vote confirmation */
@@ -419,7 +419,7 @@
 
   #african-map{
     width: 100%;
-    margin: auto;
+    margin: 0 auto;
     padding: 0;
 }
 
@@ -428,4 +428,12 @@
   letter-spacing: 0;
  }
 
+}
+
+@media screen and (max-width:400px) {
+  #african-map{
+    margin:0 -20%;
+
+    
+  }
 }
