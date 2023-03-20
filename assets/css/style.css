@@ -221,11 +221,18 @@
    /* Presidents */
 
    #gallery {
-    margin: 20px;
     clear: both;
     line-height: 0;
     column-count: 4;
     column-gap: 0;
+   }
+
+   #gallery > img{
+    width: 350px;
+    height: 380px;
+    padding: 25px 0 0 5px;
+    box-sizing: border-box;
+    
    }
 
    /*best president*/
