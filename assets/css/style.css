@@ -275,6 +275,25 @@
     margin-top: 20px;
    }
 
+   #confirm-vote h3{
+    height: 100px;
+    clear: both;
+    text-align: center;
+    font-size: 200%;
+    margin-top: 10px;
+
+   }
+
+   .appreciation{
+    height: 400px;
+    background-color: skyblue;
+   }
+
+   #confirm-vote p{
+    text-align: center;
+    padding-top: 50px;
+   }
+
    /*media queries*/
 
    /*For screen sizes 1300px to 999px */
