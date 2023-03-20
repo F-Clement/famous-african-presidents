@@ -236,7 +236,7 @@
     background-color: rgba(60, 60, 60, 0.9);
     max-width: 400px;
     position: absolute;
-    left:10%;
+    left:35%;
     padding: 30px;
    }
 
@@ -292,6 +292,7 @@
    #confirm-vote p{
     text-align: center;
     padding-top: 50px;
+    font-size: 200%;
    }
 
    /*media queries*/
