@@ -230,9 +230,7 @@
    #gallery > img{
     width: 350px;
     height: 380px;
-    padding: 25px 0 0 5px;
-    box-sizing: border-box;
-    
+    padding: 25px 0 0 5px; 
    }
 
    /*best president*/
@@ -291,6 +289,8 @@
 
    }
 
+   /* vote confirmation */
+
    .appreciation{
     height: 400px;
     background-color: skyblue;
@@ -304,7 +304,7 @@
 
    /*media queries*/
 
-   /*For screen sizes 1300px to 999px */
+   /*For screen sizes 1300px to 900px */
 
    @media screen and (max-width: 1300px) {
 
@@ -326,7 +326,7 @@
 
     #african-map{
       width: 100%;
-      margin: 0 auto;
+      margin: 0 18%;
       padding: 0;
 
     }
@@ -361,12 +361,12 @@
 
     #famous-presidents {
       width:90%;
-      height: 1000px;
+      height: 900px;
       margin: 0 auto; 
     }
     #african-map{
       width: 100%;
-      margin: 0 auto;
+      margin: 0 20%;
       padding: 0;
     }
 
@@ -380,8 +380,35 @@
         column-count: 2;
       }
     }
-  @media screen and (max-width:500px) {
+
+  @media screen and (max-width:700px) {
     #gallery{
-      column-count: 1;
+      column-count: 2;
     }
+    #famous-presidents {
+      width:90%;
+      height: 1000px;
+      margin: 0 auto; 
+    }
+
+    #african-map{
+      width: 100%;
+      margin: 0 10%;
+      padding: 0;
   }
+}
+@media screen and (max-width:500px) {
+  #gallery{
+    column-count: 1;
+  }
+  #famous-presidents {
+    width: 90%;
+    height: 1100px;
+    margin: 0 auto; 
+  }
+
+  #african-map{
+    width: 100%;
+    margin: auto;
+    padding: 0;
+}
