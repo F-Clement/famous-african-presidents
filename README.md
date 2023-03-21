@@ -117,10 +117,15 @@ This site was deployed to GitHub pages using the following steps:
 ## Credits
 
 **Design**
-+ The design of the landing page is thanks to the [code institute](https://code-institute-org.github.io/love-running-2.0/index.html) love running project. We used balsamiq to design a wirframe that looks almost exactly as that of the love running project.
++ The design of the landing page is thanks to the [code institute](https://code-institute-org.github.io/love-running-2.0/index.html) love running project.
++ We then used balsamiq to design a wirframe that looks almost exactly as that of the love running project as seen below.
+
+[Wirefram](/assets/images/wireframe.png)
 
 **Content**
-+ Content for this project comes from several websites after researching from google. 
++ Content for this project comes from several websites after researching on Google.
++ The famous president sections information comes from [Wikipedia](https://www.wikipedia.org/)
++ The fame categories content is gotten as follows:
   + [Wealth](https://peakng.com/richest-presidents-in-africa/)
   + Achievements: Personal believe.
   + [Term of reign](https://furtherafrica.com/2022/08/13/7-africas-longest-serving-presidents/)
