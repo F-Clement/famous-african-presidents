@@ -55,24 +55,81 @@ Fontawesome logos are also placed besides each of their names to demonstrate the
 ## Features Left to Implement
 
 **Presidents**
-Where we have clearer pictures of the presidents, we want that when an image is clicked, the complete history of that particular president should be displayed.
+Where we have clearer pictures of the presidents, we want that when an image is clicked, the complete history of that particular president should be displayed together with the same image on a different page.
 
-##Testing
-testing table
+## Testing
 
-###Validator Testing
+<table>
+<tr>
+<th> Action</th>
+<th>Expected Results</th>
+<th>Actual Results</th>
+</tr>
 
-##Deployment
-This site was deployed to GitHub pages using the following steps
-In GitHub repository, nagivate to the setting tab
-click on pages in the left columng 
-From the source section drop-down munu, select main and save
-Then refresh your page and and you will see it has been successfully deployed with the live link available. It can take a few minutes at times.
-The live link for African President is: link
+<tr>
+<td>Entering the live link for African Presidents</td>
+<td>Home page loads</td>
+<td>Pass</td>
+</tr>
 
-##Credits
+<tr>
+<td>Click on each of the links on the footer</td>
+<td>The respective page opens on a new tab</td>
+<td>Pass</td>
+</tr>
+
+<tr>
+<td>Click on Vote Now button without filling form</td>
+<td>Form indicates fields you must fill</td>
+<td>Pass</td>
+</tr>
+
+<tr>
+<td>Feel form correctly and click Vote Now button</td>
+<td>Vote is submitted and a confirmation page is displayed</td>
+<td>Pass</td>
+</tr>
+
+<tr>
+<td>Test website on different screen sizes</td>
+<td>It is responsive</td>
+<td>Pass</td>
+</tr>
+
+</table>
+
+### Validator Testing
+**HTML**
++ The code passed through the official [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Ff-clement.github.io%2Ffamous-african-presidents%2Findex.html) without any errors.
+
+**CSS**
++ The code passed through the [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Ff-clement.github.io%2Ffamous-african-presidents%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) without any errors.
+
+## Deployment
+This site was deployed to GitHub pages using the following steps:
++ In GitHub repository, nagivate to the setting tab
++ Click on pages in the left columng 
++ From the source section drop-down munu, select main and save
++ Then refresh your page and and you will see it has been successfully deployed with the live link available.It can take a few minutes at times.
+
++ The live link for African President is: https://f-clement.github.io/famous-african-presidents/index.html
+
+## Credits
 
 **Design**
++ The design of the landing page is thanks to the [code institute](https://code-institute-org.github.io/love-running-2.0/index.html) love running project. We used balsamiq to design a wirframe that looks almost exactly as that of the love running project.
+
 **Content**
++ Content for this project comes from several websites after researching from google. 
+  + [Wealth](https://peakng.com/richest-presidents-in-africa/)
+  + Achievements: Personal believe.
+  + [Term of reign](https://furtherafrica.com/2022/08/13/7-africas-longest-serving-presidents/)
+  + [Education](https://www.nairaland.com/2162675/robert-mugabe-tops-most-educated)
++ Icons on the famous president section are from the [Fonts Awesome](https://fontawesome.com/icons) website.
+
 **Media**
++ The hero image is from [sporcle](https://www.sporcle.com/games/OneoftheBhoys/20th-century-african-leader-click)
++ All other images used here are images gotten from Google.
+
 **Code**
++ The code to keep the arrow pointing down in the voting form was gotten from [stackoverflow](https://stackoverflow.com/questions/35196782/how-to-make-datalist-arrow-to-be-always-visible)
