@@ -105,6 +105,11 @@ Where we have clearer pictures of the presidents, we want that when an image is 
 **CSS**
 + The code passed through the [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Ff-clement.github.io%2Ffamous-african-presidents%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) without any errors.
 
+
+**Lighthouse**
++ The website was tested on lighthouse in devtools and the results are good as seen below.
+![Lighthouse Test](/assets/images/lighthouse-test.png)
+
 ## Deployment
 This site was deployed to GitHub pages using the following steps:
 + In GitHub repository, nagivate to the setting tab
