@@ -1,4 +1,5 @@
 # African Presidents
+   + URL: https://f-clement.github.io/famous-african-presidents/index.html
 
 African Presidents is a website that aims at providing lovers of history (political history) with the history of famous African leaders. This is achieved by stating different categories of fame like wealth, term of reign achievements and education.  The site also provides an opportunity for interested persons in African to vote for the best president ever in their history. 
 
@@ -108,14 +109,18 @@ Where we have clearer pictures of the presidents, we want that when an image is 
 
 **Lighthouse**
 + The website was tested on lighthouse in devtools and the results are good as seen below.
-![Lighthouse Test](/assets/images/lighthouse-test.png)
+  + Desktop Results
+![Lighthouse desktop Test](/assets/images/lighthouse-test.png)
+
+  + Mobile Results
+![Lighthouse mobile test](/assets/images/lighouse-mobile.png)
 
 ## Deployment
 This site was deployed to GitHub pages using the following steps:
-+ In GitHub repository, nagivate to the setting tab
++ In GitHub repository, nagivate to the settings tab
 + Click on pages in the left columng 
 + From the source section drop-down munu, select main and save
-+ Then refresh your page and and you will see it has been successfully deployed with the live link available.It can take a few minutes at times.
++ Then refresh your page and and you will see it has been successfully deployed with the live link available. It can take a few minutes at times.
 
 + The live link for African President is: https://f-clement.github.io/famous-african-presidents/index.html
 

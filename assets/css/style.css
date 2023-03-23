@@ -264,6 +264,7 @@
    }
 
    #vote h3{
+    color: blue;
     text-align: center;
     font-size: 150%;
     clear: both;
@@ -303,11 +304,12 @@
 
    .appreciation{
     height: 400px;
-    background-color: skyblue;
+    background-color: black;
     clear: both;
    }
 
    #confirm-vote p{
+    color: white;
     text-align: center;
     padding-top: 50px;
     font-size: 180%;
