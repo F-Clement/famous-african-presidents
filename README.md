@@ -153,6 +153,10 @@ tr>
 </tr>
 
 </table>
+**Responsive Test**
+
+![Lighthouse desktop Test](/assets/images/responsive.png)
+
 
 ### Validator Testing
 **HTML**
@@ -165,9 +169,11 @@ tr>
 **Lighthouse**
 + The website was tested on lighthouse in devtools and the results are good as seen below.
   + Desktop Results
+
 ![Lighthouse desktop Test](/assets/images/lighthouse-test.png)
 
   + Mobile Results
+
 ![Lighthouse mobile test](/assets/images/lighouse-mobile.png)
 
 ## Deployment
@@ -185,7 +191,29 @@ This site was deployed to GitHub pages using the following steps:
 + The design of the landing page is thanks to the [code institute](https://code-institute-org.github.io/love-running-2.0/index.html) love running project.
 + We then used balsamiq to design a wirframe that looks almost exactly as that of the love running project as seen below.
 
-![Wirefram](/assets/images/wireframe.png)
+  + Wireframe for desktop view of home page
+
+![Wireframe](/assets/images/wireframe.png)
+
+  + Wireframe for desktop view of presidents page
+
+![Wireframe](/assets/images/presidents-desktop-wireframe.png)
+
+  + Wireframe for desktop view of best president page
+
+![Wireframe](/assets/images/vote-desktop-wireframe.png)
+
+  + Wireframe for tablet view of home page
+
+![Wireframe](/assets/images/home-tablet-wirefram.png)
+
+  + Wireframe for tablet view of presidents page
+
+![Wireframe](/assets/images/presidents-tablet-wirframe.png)
+
+  + Wireframe for mobile view of home page
+
+![Wireframe](/assets/images/mobile-wirefram.png)
 
 **Content**
 + Content for this project comes from several websites after researching on Google.
