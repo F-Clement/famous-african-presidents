@@ -68,26 +68,81 @@ Where we have clearer pictures of the presidents, we want that when an image is 
 </tr>
 
 <tr>
-<td>Entering the live link for African Presidents</td>
+<td>Entering the live url for African Presidents</td>
 <td>Home page loads</td>
 <td>Pass</td>
 </tr>
 
 <tr>
-<td>Click on each of the links on the footer</td>
-<td>The respective page opens on a new tab</td>
+<td>Click on the Wikipedia link in the footer</td>
+<td>Opens the home page of Wikipedia in a new tab</td>
+<td>Pass</td>
+</tr>
+
+tr>
+<td>Click on the Google link in the footer</td>
+<td>Opens the home page of Google in a new tab</td>
+<td>Pass</td>
+</tr>
+
+tr>
+<td>Click on the Youtube link in the footer</td>
+<td>Opens the home page of Youtube in a new tab</td>
+<td>Pass</td>
+</tr>
+
+
+<tr>
+<td>Click on Vote Now button without filling any of the form fields</td>
+<td>First name field calls for your attention to fill it out</td>
 <td>Pass</td>
 </tr>
 
 <tr>
-<td>Click on Vote Now button without filling form</td>
-<td>Form indicates fields you must fill</td>
+<td>Filll only first name field and then click the Vote Now button</td>
+<td>Second name field calls for your attention to fill it out</td>
 <td>Pass</td>
 </tr>
 
 <tr>
-<td>Feel form correctly and click Vote Now button</td>
-<td>Vote is submitted and a confirmation page is displayed</td>
+<td>Filll first name and second name field then click the Vote Now button</td>
+<td>Email address field calls for your attention to fill it out</td>
+<td>Pass</td>
+</tr>
+
+<tr>
+<td>Filll only first name, second name and email address field and then click the Vote Now button</td>
+<td>Datalist field calls for your attention to select or input your choice of president</td>
+<td>Pass</td>
+</tr>
+
+<tr>
+<td>Click Vote Now button after filling all fields but with a wrong format email address in the email address field</td>
+<td>Email address field calls for your attention to correct the email</td>
+<td>Pass</td>
+</tr>
+
+<tr>
+<td>Click Vote Now button after filling all fields correctly</td>
+<td>Vote is confirmed and takes you to a confirmation page in the same website</td>
+<td>Pass</td>
+</tr>
+
+<tr>
+<td>Click Home on navigation menu</td>
+<td>Home page of our websites loads</td>
+<td>Pass</td>
+</tr>
+
+<tr>
+<td>Click Presidents on the navigation menutd>
+<td>Navigates to a page containing pictures of african presidents</td>
+<td>Pass</td>
+</tr>
+
+<tr>
+<td>Click on "Best President" on the navigation menum</td>
+<td>Navigates to a page where you can vote for the best African president</td>
 <td>Pass</td>
 </tr>
 
