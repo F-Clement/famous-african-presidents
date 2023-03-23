@@ -174,7 +174,7 @@ tr>
 
   + Mobile Results
 
-![Lighthouse mobile test](/assets/images/lighouse-mobile.png)
+![Lighthouse mobile test](/assets/images/lighthouse-mobile.png)
 
 ## Deployment
 This site was deployed to GitHub pages using the following steps:
