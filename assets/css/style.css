@@ -304,12 +304,13 @@
    .appreciation{
     height: 400px;
     background-color: skyblue;
+    clear: both;
    }
 
    #confirm-vote p{
     text-align: center;
     padding-top: 50px;
-    font-size: 200%;
+    font-size: 180%;
    }
 
    /*media queries*/
@@ -389,6 +390,13 @@
       #gallery{
         column-count: 2;
       }
+
+      #confirm-vote p{
+        text-align: center;
+        padding-top: 50px;
+        font-size: 125%;
+       }
+      
     }
 
   @media screen and (max-width:700px) {
@@ -406,6 +414,7 @@
       margin: 0 10%;
       padding: 0;
   }
+
 }
 @media screen and (max-width:500px) {
   #gallery{
