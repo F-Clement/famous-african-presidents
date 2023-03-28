@@ -263,8 +263,15 @@
     height: 800px;
    }
 
-   #vote h3{
-    color: blue;
+   #vote > h3 {
+    color: black;
+    text-align: center;
+    font-size: 150%;
+    clear: both;
+   }
+
+   .personal-data > h3{
+    color: skyblue;
     text-align: center;
     font-size: 150%;
     clear: both;
