@@ -5,6 +5,34 @@ African Presidents is a website that aims at providing lovers of history (politi
 
 ![Screenshot of home page](/assets/images/home-page.png)
 
+## Web Design
+
++ We used balsamiq to design a wirframe that looks almost exactly as that of the love running project as seen below.
+
+  + Wireframe for desktop view of home page
+
+![Wireframe](/assets/images/wireframe.png)
+
+  + Wireframe for desktop view of presidents page
+
+![Wireframe](/assets/images/presidents-desktop-wireframe.png)
+
+  + Wireframe for desktop view of best president page
+
+![Wireframe](/assets/images/vote-desktop-wireframe.png)
+
+  + Wireframe for tablet view of home page
+
+![Wireframe](/assets/images/home-tablet-wirefram.png)
+
+  + Wireframe for tablet view of presidents page
+
+![Wireframe](/assets/images/presidents-tablet-wirframe.png)
+
+  + Wireframe for mobile view of home page
+
+![Wireframe](/assets/images/mobile-wirefram.png)
+
 ## Existing Features
 **Navigation Bar**
 + Featured on all pages is the sites navigation bar that provides links to the homepage, presidents and the best president page where you can vote. This navigation bar is fully responive and identical in each page to allow for easy navigation.
@@ -62,100 +90,103 @@ Where we have clearer pictures of the presidents, we want that when an image is 
 
 <table>
 <tr>
-<th> Action</th>
-<th>Expected Results</th>
-<th>Actual Results</th>
+  <th> Action</th>
+  <th>Expected Results</th>
+  <th>Actual Results</th>
 </tr>
 
 <tr>
-<td>Entering the live url for African Presidents</td>
-<td>Home page loads</td>
-<td>Pass</td>
+  <td>Entering the live url for African Presidents</td>
+  <td>Home page loads</td>
+  <td>Pass</td>
 </tr>
 
 <tr>
-<td>Click on the Wikipedia link in the footer</td>
-<td>Opens the home page of Wikipedia in a new tab</td>
-<td>Pass</td>
+  <td>Click on the Wikipedia link in the footer</td>
+  <td>Opens the home page of Wikipedia in a new tab</td>
+  <td>Pass</td>
 </tr>
 
-tr>
-<td>Click on the Google link in the footer</td>
-<td>Opens the home page of Google in a new tab</td>
-<td>Pass</td>
+<tr>
+ <td>Click on the Google link in the footer</td>
+ <td>Opens the home page of Google in a new tab</td>
+ <td>Pass</td>
 </tr>
 
-tr>
-<td>Click on the Youtube link in the footer</td>
-<td>Opens the home page of Youtube in a new tab</td>
-<td>Pass</td>
+<tr>
+ <td>Click on the Youtube link in the footer</td>
+ <td>Opens the home page of Youtube in a new tab</td>
+ <td>Pass</td>
 </tr>
 
 
 <tr>
-<td>Click on Vote Now button without filling any of the form fields</td>
-<td>First name field calls for your attention to fill it out</td>
-<td>Pass</td>
+ <td>Click on Vote Now button without filling any of the form fields</td>
+ <td>First name field calls for your attention to fill it out</td>
+ <td>Pass</td>
 </tr>
 
 <tr>
-<td>Filll only first name field and then click the Vote Now button</td>
-<td>Second name field calls for your attention to fill it out</td>
-<td>Pass</td>
+ <td>Filll only first name field and then click the Vote Now button</td>
+ <td>Second name field calls for your attention to fill it out</td>
+ <td>Pass</td>
 </tr>
 
 <tr>
-<td>Filll first name and second name field then click the Vote Now button</td>
-<td>Email address field calls for your attention to fill it out</td>
-<td>Pass</td>
+ <td>Filll first name and second name field then click the Vote Now button</td>
+ <td>Email address field calls for your attention to fill it out</td>
+ <td>Pass</td>
 </tr>
 
 <tr>
-<td>Filll only first name, second name and email address field and then click the Vote Now button</td>
-<td>Datalist field calls for your attention to select or input your choice of president</td>
-<td>Pass</td>
+ <td>Filll only first name, second name and email address field and then click the Vote Now button</td>
+ <td>Datalist field calls for your attention to select or input your choice of president</td>
+ <td>Pass</td>
 </tr>
 
 <tr>
-<td>Click Vote Now button after filling all fields but with a wrong format email address in the email address field</td>
-<td>Email address field calls for your attention to correct the email</td>
-<td>Pass</td>
+ <td>Click Vote Now button after filling all fields but with a wrong format email address in the email address field</td>
+ <td>Email address field calls for your attention to correct the email</td>
+ <td>Pass</td>
 </tr>
 
 <tr>
-<td>Click Vote Now button after filling all fields correctly</td>
-<td>Vote is confirmed and takes you to a confirmation page in the same website</td>
-<td>Pass</td>
+ <td>Click Vote Now button after filling all fields correctly</td>
+ <td>Vote is confirmed and takes you to a confirmation page in the same website</td>
+ <td>Pass</td>
 </tr>
 
 <tr>
-<td>Click Home on navigation menu</td>
-<td>Home page of our websites loads</td>
-<td>Pass</td>
+ <td>Click Home on navigation menu</td>
+ <td>Home page of our websites loads</td>
+ <td>Pass</td>
 </tr>
 
 <tr>
-<td>Click Presidents on the navigation menutd>
-<td>Navigates to a page containing pictures of african presidents</td>
-<td>Pass</td>
+ <td>Click Presidents on the navigation menutd>
+ <td>Navigates to a page containing pictures of african presidents</td>
+ <td>Pass</td>
 </tr>
 
 <tr>
-<td>Click on "Best President" on the navigation menum</td>
-<td>Navigates to a page where you can vote for the best African president</td>
-<td>Pass</td>
+ <td>Click on "Best President" on the navigation menum</td>
+ <td>Navigates to a page where you can vote for the best African president</td>
+ <td>Pass</td>
 </tr>
 
 <tr>
-<td>Test website on different screen sizes</td>
-<td>It is responsive</td>
-<td>Pass</td>
+ <td>Test website on different screen sizes</td>
+ <td>It is responsive</td>
+ <td>Pass</td>
 </tr>
 
 </table>
+
 **Responsive Test**
 
 ![Lighthouse desktop Test](/assets/images/responsive.png)
+
++ Some screen sizes display the website when scrolled down to show how responsive it is on different screen sizes.
 
 
 ### Validator Testing
@@ -189,31 +220,6 @@ This site was deployed to GitHub pages using the following steps:
 
 **Design**
 + The design of the landing page is thanks to the [code institute](https://code-institute-org.github.io/love-running-2.0/index.html) love running project.
-+ We then used balsamiq to design a wirframe that looks almost exactly as that of the love running project as seen below.
-
-  + Wireframe for desktop view of home page
-
-![Wireframe](/assets/images/wireframe.png)
-
-  + Wireframe for desktop view of presidents page
-
-![Wireframe](/assets/images/presidents-desktop-wireframe.png)
-
-  + Wireframe for desktop view of best president page
-
-![Wireframe](/assets/images/vote-desktop-wireframe.png)
-
-  + Wireframe for tablet view of home page
-
-![Wireframe](/assets/images/home-tablet-wirefram.png)
-
-  + Wireframe for tablet view of presidents page
-
-![Wireframe](/assets/images/presidents-tablet-wirframe.png)
-
-  + Wireframe for mobile view of home page
-
-![Wireframe](/assets/images/mobile-wirefram.png)
 
 **Content**
 + Content for this project comes from several websites after researching on Google.
